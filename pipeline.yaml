@@ -5,5 +5,5 @@ trigger:
 steps:
 - task: Docker@2
   inputs:
-  command: 'buildAndPush'
-  Dockerfile: '**/Dockerfile'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
